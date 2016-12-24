@@ -25,7 +25,7 @@ TRACKER = ['a','b','c','d','e','f','g','h','i','j','k','l',
            '@','#','$','%','&','*']
 
 TW_COUNT = 0
-TW_TOTAL = 215088
+TW_TOTAL = 1000000
 START = datetime.now()
 
 def mongo_insert(screen_name,text,st_created_at,
