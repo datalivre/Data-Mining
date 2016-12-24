@@ -29,9 +29,10 @@ Se popularidade é a condição de ser conhecido por um grande número de pessoa
 Em nossa primeira análise, vamos desvendar se o Twitter voa por todo o mundo ou se esta aninhado em seu país de criação por ter asas pequenas.
 
 > Para esta etapa, agrupou-se todos os tweets coletados por país de origem, com isso, obteve-se um conjunto para cada. Cada conjunto representa um único país, e a cada novo tweet inserido em um conjunto somou-se mais um.
+
  <img src="https://github.com/robbierobert/Minerando-o-Twitter/blob/master/1_tweetsCountry.png" alt="tweetsCountry">
 
-Note que o Twitter é verdadeiramente popular nos EUA e no Brasil. Se a intenção fosse avaliar a utilização do Twitter por continente, as Américas estariam isoladas em primeiro lugar, visto que, os Estados Unidos com 52,7% de tweets enviados é a região que mais utiliza o microblog seguido do Brasil que detêm 30,07%. Em terceiro lugar estão nossos hermanos Argentinos com 6,12%. Os demais continentes não oberam um resultado expressivo.
+Note que o Twitter é verdadeiramente popular nos EUA e no Brasil. Se a intenção fosse avaliar a utilização do Twitter por continente, as Américas estariam isoladas em primeiro lugar, visto que, os Estados Unidos com 57,43% de tweets enviados é a região que mais utiliza o microblog seguido do Brasil que detêm 26,76%. Em quarto lugar estão nossos hermanos Argentinos com 5,34%. Os demais continentes não oberam um resultado muito expressivo.
 
 ## 2. Qual o idioma mais utilizado para se escrever um tweet?
 
@@ -43,11 +44,7 @@ Bom, já sabemos que mais de 50 por cento de todos os tweets saem dos Estados Un
 
 A língua predominante no Twitter é definitivamente o inglês, mais de 50 por cento dos 1 milhão de tweets analisados foram escritos neste idioma. Em segundo lugar temos o espanhol, falado na Espanha e nas Américas, e em terceiro, o conjunto da língua portuguesa que tem como membros países como Portugal, Brasil e Angola. Curiosamente, o mandarim que conta com mais de 1 bilhão de falantes por toda a China, Malásia e Taiwan e outros pedaços do mundo, não estrela entre os 5 principais idiomas mais utilizados no Twitter.
 
-## 3. Qual a média de tweets por usuário?
-
-Uma rede social é afinal uma comunidade, então, será o twitter uma comunidade ativa ou passiva ou então, será o Twitter apenas uma mídia difusora? Para investigar este problema foi usado a quantidade de tweets previamente capturados e o total de usuários que publicaram estes mesmos tweets, o resultado é a comparação entre os dois valores, através de uma divisão, ou seja, razão.
-
-## 4. Qual o total de tweets postados por conta de usuário?
+## 3. Qual o total de tweets postados por conta de usuário?
 
 E por fim, talvez nossa mais proeminente análise: a análise divisora de águas! Aqui, por meio da contagem de tweets por conta de usuário, investigaremos se realmente os membros do microblog abandonam mesmo a rede social.
 
