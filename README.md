@@ -29,8 +29,7 @@ Se popularidade é a condição de ser conhecido por um grande número de pessoa
 Em nossa primeira análise, vamos desvendar se o Twitter voa por todo o mundo ou se esta aninhado em seu país de criação por ter asas pequenas.
 
 > Para esta etapa, agrupou-se todos os tweets coletados por país de origem, com isso, obteve-se um conjunto para cada. Cada conjunto representa um único país, e a cada novo tweet inserido em um conjunto somou-se mais um.
-
-![](/assets/1 - tweetsCountry.png)
+ <img src="https://github.com/robbierobert/Minerando-o-Twitter/blob/master/1_tweetsCountry.png" alt="tweetsCountry">
 
 Note que o Twitter é verdadeiramente popular nos EUA e no Brasil. Se a intenção fosse avaliar a utilização do Twitter por continente, as Américas estariam isoladas em primeiro lugar, visto que, os Estados Unidos com 52,7% de tweets enviados é a região que mais utiliza o microblog seguido do Brasil que detêm 30,07%. Em terceiro lugar estão nossos hermanos Argentinos com 6,12%. Os demais continentes não oberam um resultado expressivo.
 
@@ -40,7 +39,7 @@ Bom, já sabemos que mais de 50 por cento de todos os tweets saem dos Estados Un
 
 > Para esta etapa, assim como na anterior, agrupou-se todos os tweets coletados por idioma de origem gerando conjuntos de idiomas distintos. Depois contou-se quantos tweets pertenciam ao mesmo conjunto, o resultado pode ser analisado na imagem que segue:
 
-![](/assets/_tweetsLang.png)
+ <img src="https://github.com/robbierobert/Minerando-o-Twitter/blob/master/2_tweetsLang.png" alt="2_tweetsLang">
 
 A língua predominante no Twitter é definitivamente o inglês, mais de 50 por cento dos 1 milhão de tweets analisados foram escritos neste idioma. Em segundo lugar temos o espanhol, falado na Espanha e nas Américas, e em terceiro, o conjunto da língua portuguesa que tem como membros países como Portugal, Brasil e Angola. Curiosamente, o mandarim que conta com mais de 1 bilhão de falantes por toda a China, Malásia e Taiwan e outros pedaços do mundo, não estrela entre os 5 principais idiomas mais utilizados no Twitter.
 
@@ -54,7 +53,7 @@ E por fim, talvez nossa mais proeminente análise: a análise divisora de águas
 
 > As contas de usuário do Twitter possuem um campo que contém a data de criação da mesma. Se todos os tweets coletados forem filtrados por este campo, teremos como resultado o total de tweets postado por conta.
 
-![](/assets/_tweets_conta.png)
+ <img src="https://github.com/robbierobert/Minerando-o-Twitter/blob/master/3_tweetsData.png" alt="2_tweetsData">
 
 O gráfico é um tanto esclarecedor, percebesse que os usuários do Twitter que criaram conta em 2006 já voaram do ninho e os seguintes, 2007 e 2008, vão seguindo o mesmo caminho. Note que existe uma grande diferença entre a relação das contas criadas em 2016 para as de 2015, seria essa uma evidência de que os usuários abandonam o microblog brevemente?
 
